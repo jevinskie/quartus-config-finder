@@ -1,0 +1,62 @@
+cfg_set_on(CFG_INI_VAR_ENUM)	_Z10cfg_set_on16CFG_INI_VAR_ENUM
+cfg_set_on(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	_Z10cfg_set_onRKSs
+cfg_set_off(CFG_INI_VAR_ENUM)	_Z11cfg_set_off16CFG_INI_VAR_ENUM
+cfg_set_off(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	_Z11cfg_set_offRKSs
+cfg_get_value(CFG_INI_VAR_ENUM)	_Z13cfg_get_value16CFG_INI_VAR_ENUM
+cfg_get_value(char const*)	_Z13cfg_get_valuePKc
+cfg_set_value(CFG_INI_VAR_ENUM, char const*)	_Z13cfg_set_value16CFG_INI_VAR_ENUMPKc
+cfg_set_value(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	_Z13cfg_set_valueRKSsS0_
+cfg_is_qexe_mode()	_Z16cfg_is_qexe_modev
+cfg_get_int_value(CFG_INI_VAR_ENUM)	_Z17cfg_get_int_value16CFG_INI_VAR_ENUM
+cfg_get_int_value(char const*, int)	_Z17cfg_get_int_valuePKci
+cfg_get_int_value(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)	_Z17cfg_get_int_valueRKSsi
+cfg_read_ini_file(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	_Z17cfg_read_ini_fileRKSs
+cfg_read_ini_file()	_Z17cfg_read_ini_filev
+cfg_set_int_value(CFG_INI_VAR_ENUM, int)	_Z17cfg_set_int_value16CFG_INI_VAR_ENUMi
+cfg_set_int_value(char const*, int)	_Z17cfg_set_int_valuePKci
+cfg_set_int_value(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)	_Z17cfg_set_int_valueRKSsi
+cfg_close_ini_file()	_Z18cfg_close_ini_filev
+cfg_user_ini_is_on(CFG_USER_INI_ENUMS, bool)	_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb
+cfg_set_user_ini_on(CFG_USER_INI_ENUMS)	_Z19cfg_set_user_ini_on18CFG_USER_INI_ENUMS
+cfg_get_double_value(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double)	_Z20cfg_get_double_valueRKSsd
+cfg_is_qexe_cmd_mode()	_Z20cfg_is_qexe_cmd_modev
+cfg_is_qexe_rpt_mode()	_Z20cfg_is_qexe_rpt_modev
+cfg_jtag_auto_config()	_Z20cfg_jtag_auto_configv
+cfg_qexe_ini_applied()	_Z20cfg_qexe_ini_appliedv
+cfg_set_user_ini_off(CFG_USER_INI_ENUMS)	_Z20cfg_set_user_ini_off18CFG_USER_INI_ENUMS
+cfg_get_most_accessed(std::vector<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >*)	_Z21cfg_get_most_accessedPSt6vectorISt4pairISsSsESaIS1_EE
+cfg_get_user_ini_value(CFG_USER_INI_ENUMS)	_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS
+cfg_get_user_ini_value(char const*)	_Z22cfg_get_user_ini_valuePKc
+cfg_process_ini_string(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	_Z22cfg_process_ini_stringRKSs
+cfg_set_user_ini_value(CFG_USER_INI_ENUMS, char const*)	_Z22cfg_set_user_ini_value18CFG_USER_INI_ENUMSPKc
+cfg_set_user_ini_value(char const*, char const*)	_Z22cfg_set_user_ini_valuePKcS0_
+cfg_force_qexe_mode_off()	_Z23cfg_force_qexe_mode_offv
+cfg_is_jtag_server_mode()	_Z23cfg_is_jtag_server_modev
+cfg_is_qexe_ini_applied()	_Z23cfg_is_qexe_ini_appliedv
+cfg_write_user_ini_file()	_Z23cfg_write_user_ini_filev
+cfg_is_benchmarking_mode()	_Z24cfg_is_benchmarking_modev
+cfg_get_user_ini_ini_desc(CFG_USER_INI_ENUMS)	_Z25cfg_get_user_ini_ini_desc18CFG_USER_INI_ENUMS
+cfg_read_default_ini_file()	_Z25cfg_read_default_ini_filev
+cfg_read_project_ini_file(char const*, bool)	_Z25cfg_read_project_ini_filePKcb
+cfg_check_debug_ini_values(bool*, bool*, int*)	_Z26cfg_check_debug_ini_valuesPbS_Pi
+cfg_get_ini_file_path_name()	_Z26cfg_get_ini_file_path_namev
+cfg_get_user_ini_int_value(CFG_USER_INI_ENUMS)	_Z26cfg_get_user_ini_int_value18CFG_USER_INI_ENUMS
+cfg_set_user_ini_int_value(CFG_USER_INI_ENUMS, int)	_Z26cfg_set_user_ini_int_value18CFG_USER_INI_ENUMSi
+cfg_get_user_ini_ini_string(CFG_USER_INI_ENUMS)	_Z27cfg_get_user_ini_ini_string18CFG_USER_INI_ENUMS
+cfg_get_used_variable_value_map(std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >*)	_Z31cfg_get_used_variable_value_mapPSt3mapISsSsSt4lessISsESaISt4pairIKSsSsEEE
+cfg_does_ini_variable_have_value(CFG_USER_INI_ENUMS, bool)	_Z32cfg_does_ini_variable_have_value18CFG_USER_INI_ENUMSb
+cfg_get_single_most_accessed_ini(std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&)	_Z32cfg_get_single_most_accessed_iniRSsS_
+cfg_get_user_ini_registry_string(CFG_USER_INI_ENUMS)	_Z32cfg_get_user_ini_registry_string18CFG_USER_INI_ENUMS
+cfg_write_and_close_user_ini_file()	_Z33cfg_write_and_close_user_ini_filev
+cfg_get_regtest_ini_file_path_name()	_Z34cfg_get_regtest_ini_file_path_namev
+cfg_get_user_ini_registry_branch_string(CFG_USER_INI_ENUMS)	_Z39cfg_get_user_ini_registry_branch_string18CFG_USER_INI_ENUMS
+cfg_get_user_ini_registry_sub_branch_string(CFG_USER_INI_ENUMS)	_Z43cfg_get_user_ini_registry_sub_branch_string18CFG_USER_INI_ENUMS
+cfg_get_appended_envrionment_ini_file_path_name()	_Z47cfg_get_appended_envrionment_ini_file_path_namev
+cfg_is_on(CFG_INI_VAR_ENUM)	_Z9cfg_is_on16CFG_INI_VAR_ENUM
+cfg_is_on(char const*, bool)	_Z9cfg_is_onPKcb
+_fini	_fini
+_init	_init
+cfg_dyn_get_int_value	cfg_dyn_get_int_value
+cfg_dyn_get_value	cfg_dyn_get_value
+cfg_dyn_is_on	cfg_dyn_is_on
+cfg_ini_get_value_for_mega	cfg_ini_get_value_for_mega
