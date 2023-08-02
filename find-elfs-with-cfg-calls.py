@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+
 from path import Path
 
 cfg_syms = open(sys.argv[3], "rb").read().splitlines()
