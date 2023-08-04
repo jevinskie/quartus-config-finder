@@ -30,10 +30,12 @@
 import argparse
 import io
 import sys
-from typing import Optional, TypeVar
+from typing import Optional
 
 import lief
 import wrapt
+from attrs import define, field
+from cxxfilt import demangle
 from path import Path
 from rich import inspect, print
 from tap import Tap
@@ -43,12 +45,68 @@ ELF_MAGIC = b"\x7FELF"
 CFG_ELF = Path("libccl_cfg_ini.so")
 
 
+def get_cfg_exports(cfg_elf: Path) -> list[str]:
+    b = lief.parse(cfg_elf)
+    if not isinstance(b, lief.ELF.Binary):
+        raise TypeError(f"cfg_elf ({cfg_elf.name()}) is not a lief.ELF.Binary")
+    return sorted(set([s.name for s in b.exported_symbols if "cfg" in s.name]))
+
+
+def elf_imported_cfg_exports(elf_path: Path, cfg_exports_set: set[str]) -> set[str]:
+    b = lief.parse(elf_path)
+    if not isinstance(b, lief.ELF.Binary):
+        raise TypeError("f{elf_path.name()} is not a lief.ELF.Binary")
+    imp_syms = {s.name for s in b.imported_symbols}
+    return imp_syms.intersection(cfg_exports_set)
+
+
+@define
+class CfgUsingElf:
+    path: Path
+    cfg_sym_imports: list[str]
+    cfg_sym_imports_demangled: list[str]
+
+
 def real_main(args):
-    elfs: list[Path] = []
-    cfg_elf = Optional[Path]
+    cfg_using_elfs: list[CfgUsingElf] = []
+    cfg_elf: Optional[Path] = None
     for f in args.in_path.walkfiles():
-        if open(f, "rb").read(4) == ELF_MAGIC:
-            print(f"{f} is ELF")
+        if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
+            if f.name == CFG_ELF:
+                cfg_elf = f
+                break
+    if cfg_elf is None:
+        raise LookupError("Couldn't find {CFG_ELF}")
+    cfg_exports: list[str] = get_cfg_exports(f)
+    cfg_exports_demangled: list[str] = sorted([demangle(s) for s in cfg_exports])
+    cfg_exports_set: set[str] = set(cfg_exports)
+    cfg_exports_set_demangled: set[str] = set(cfg_exports_demangled)
+    if len(cfg_exports_demangled) != len(cfg_exports_set_demangled):
+        raise ValueError(
+            f"len(cfg_exports_demangled) = {len(cfg_exports_demangled)} != len(cfg_exports_demangled) = {len(cfg_exports_set_demangled)}"
+        )
+    print(cfg_exports, file=open("cfg_exports.txt", "w"))
+    print(cfg_exports_demangled, file=open("cfg_exports_demangled.txt", "w"))
+    for f in args.in_path.walkfiles():
+        if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
+            print(f"inspecting {f}")
+            if f.name == CFG_ELF:
+                continue
+            used_cfg_exports: set[str] = elf_imported_cfg_exports(f, cfg_exports_set)
+            if len(used_cfg_exports):
+                print(f"{f.name} uses cfg syms")
+                used_cfg_exports: list[str] = sorted(used_cfg_exports)
+                used_cfg_exports_demangled: list[str] = sorted(
+                    [demangle(s) for s in used_cfg_exports]
+                )
+                cfg_using_elfs.append(
+                    CfgUsingElf(
+                        path=f,
+                        cfg_sym_imports=used_cfg_exports,
+                        cfg_sym_imports_demangled=used_cfg_exports_demangled,
+                    )
+                )
+    print(cfg_using_elfs)
 
 
 # class OpenedTextPath(io.TextIOWrapper):
