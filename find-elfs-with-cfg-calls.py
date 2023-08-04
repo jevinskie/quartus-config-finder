@@ -30,7 +30,7 @@
 import argparse
 import io
 import sys
-from typing import TypeVar
+from typing import Optional, TypeVar
 
 import lief
 import wrapt
@@ -42,12 +42,14 @@ from typing_extensions import Self
 ELF_MAGIC = b"\x7FELF"
 CFG_ELF = Path("libccl_cfg_ini.so")
 
-# def real_main(args):
-#     elfs: list[Path] = []
-#     cfg_elf = Optional[None]
-#     for f in args.in_path.walkfiles():
-#         if open(f, "rb").read(4) == ELF_MAGIC:
-#             pass
+
+def real_main(args):
+    elfs: list[Path] = []
+    cfg_elf = Optional[Path]
+    for f in args.in_path.walkfiles():
+        if open(f, "rb").read(4) == ELF_MAGIC:
+            print(f"{f} is ELF")
+
 
 # class OpenedTextPath(io.TextIOWrapper):
 #     def __init__(self, p: Path, mode: str = "r"):
@@ -61,64 +63,40 @@ CFG_ELF = Path("libccl_cfg_ini.so")
 #         return open(p, mode)
 
 
-# OptionalStdoutPathType = TypeVar('OptionalStdoutPathType', bound='OptionalStdoutPath')
-class OptionalStdoutPath(Path):
-    file: io.TextIOWrapper
-
+class TextOutputPath(Path):
     def __init__(self: Self, path: Path) -> None:
         super().__init__(path)
-        if self == "-":
-            print("found -")
-            self.file = sys.stdout
-        else:
-            self.file = open(path, "w")
+
+    @property
+    def file(self: Self) -> io.TextIOWrapper:
+        if not hasattr(self, "_file"):
+            if self == "-":
+                self._file: io.TextIOWrapper = sys.stdout
+            else:
+                self._file: io.TextIOWrapper = open(self, "w")
+        return self._file
 
     @classmethod
-    def to_optional_stdout_path(cls: type(Self), path: Path) -> Self:
+    def to_text_output_path(cls: type(Self), path: Path) -> Self:
         return cls(path)
 
 
 class Args(Tap):
     in_path: Path  # Input Quartus binary directory to search
-    out: Path = "-"  # "Output JSON path (defaults to "-" for stdout)
+    out_path: Path = "-"  # "Output JSON path (defaults to "-" for stdout)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, underscores_to_dashes=True, **kwargs)
 
     def configure(self):
         self.add_argument("-i", "--in_path")
-        self.add_argument("-o", "--out", type=OptionalStdoutPath.to_optional_stdout_path)
+        self.add_argument("-o", "--out_path", type=TextOutputPath.to_text_output_path)
 
 
-args = Args().parse_args()
-print(args)
-print(args.out)
-print(args.out.file)
-print(type(args.out))
-print(type(args.out).mro())
-
-sys.exit(0)
-
-# def get_arg_parser() -> argparse.ArgumentParser:
-#     parser = argparse.ArgumentParser(description="find-elfs-with-cfg-calls.py")
-#     parser.add_argument(
-#         "-i", "--in-dir", required=True, help="Input Quartus binary directory to search"
-#     )
-#     parser.add_argument(
-#         "-o", "--out", required=True, default="-", dest="out_file", help="Output JSON path"
-#     )
-#     return parser
+def main():
+    args = Args().parse_args()
+    real_main(args)
 
 
-# def main():
-#     args = get_arg_parser().parse_args()
-#     args.in_dir = Path(args.in_dir)
-#     if args.out_file == "-":
-#         args.out_file = sys.stdout
-#     else:
-#         args.out_file = open(args.out_file, "w")
-#     real_main(args)
-
-
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
