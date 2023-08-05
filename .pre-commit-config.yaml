@@ -1,13 +1,13 @@
+minimum_pre_commit_version: '2.9.0'
 repos:
-- repo: https://github.com/psf/black
-  rev: 23.7.0
+- repo: https://github.com/bwhmather/ssort
+  rev: master
   hooks:
-  - id: black
-    args: ["--line-length", "100"]
-    types: [python]
-- repo: https://github.com/pycqa/isort
-  rev: 5.12.0
+  - id: ssort
+    types_or: [python]
+- repo: https://github.com/Zac-HD/shed
+  rev: 2023.6.1
   hooks:
-  - id: isort
-    args: ["--profile", "black"]
-    types: [python]
+    - id: shed
+      args: [--refactor, --py39-plus]
+      types_or: [python]

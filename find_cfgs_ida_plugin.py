@@ -2,12 +2,9 @@
 
 from typing import Optional
 
-import FIDL.decompiler_utils as du
 import ida_funcs
-import idaapi
 import idautils
-import idc
-from attrs import define, field
+from attrs import define
 from cxxfilt import demangle
 from rich import print
 
@@ -21,7 +18,9 @@ class CfgFunc:
 
 
 def get_funcs():
-    return {ida_funcs.get_func_name(func_ea): func_ea for func_ea in idautils.Functions()}
+    return {
+        ida_funcs.get_func_name(func_ea): func_ea for func_ea in idautils.Functions()
+    }
 
 
 func_eas = get_funcs()

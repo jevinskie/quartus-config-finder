@@ -5,7 +5,7 @@ import sys
 
 import lief
 import wrapt
-from rich import inspect, print
+from rich import print
 
 
 def get_cstring(b: lief.ELF.Binary, addr: int) -> str:
@@ -26,7 +26,8 @@ def get_str_pairs_from_ptr_table(b: lief.Binary, table_sym: str) -> dict[str, st
     str_pairs = {}
     for str_pair_first_ptr in range(tbl.value, tbl.value + tbl.size, 2 * ptr_sz):
         name_ptr = int.from_bytes(
-            b.get_content_from_virtual_address(str_pair_first_ptr, ptr_sz), byteorder="little"
+            b.get_content_from_virtual_address(str_pair_first_ptr, ptr_sz),
+            byteorder="little",
         )
         val_ptr = int.from_bytes(
             b.get_content_from_virtual_address(str_pair_first_ptr + ptr_sz, ptr_sz),
@@ -58,10 +59,19 @@ def real_main(args):
 def get_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="parse_cfg_info.py")
     parser.add_argument(
-        "-i", "--in", dest="in_file", required=True, help="Input libccl_cfg_ini to parse"
+        "-i",
+        "--in",
+        dest="in_file",
+        required=True,
+        help="Input libccl_cfg_ini to parse",
     )
     parser.add_argument(
-        "-o", "--out", required=True, default="-", dest="out_file", help="Output JSON path"
+        "-o",
+        "--out",
+        required=True,
+        default="-",
+        dest="out_file",
+        help="Output JSON path",
     )
     return parser
 

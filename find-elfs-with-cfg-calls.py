@@ -10,7 +10,7 @@ import lief
 from attrs import define
 from cxxfilt import demangle
 from path import Path
-from rich import inspect, print
+from rich import print
 from tap import Tap
 from typing_extensions import Self
 
@@ -56,7 +56,7 @@ def get_cfg_exports(cfg_elf: Path) -> list[str]:
     b = lief.parse(cfg_elf)
     if not isinstance(b, lief.ELF.Binary):
         raise TypeError(f"cfg_elf ({cfg_elf.name()}) is not a lief.ELF.Binary")
-    return sorted(set([s.name for s in b.exported_symbols if "cfg" in s.name]))
+    return sorted({s.name for s in b.exported_symbols if "cfg" in s.name})
 
 
 def elf_imported_cfg_exports(elf_path: Path, cfg_exports_set: set[str]) -> list[str]:
@@ -133,14 +133,18 @@ def real_main(args: Args) -> None:
         if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
             print(f"inspecting ELF {f}")
             used_cfg_exports: list[str] = elf_imported_cfg_exports(f, cfg_exports_set)
-            if len(used_cfg_exports):
+            if used_cfg_exports:
                 print(f"{f.name} uses cfg syms")
                 used_cfg_exports_demangled: list[str] = demangle_syms(used_cfg_exports)
-                cfg_using_elfs.append(CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled))
+                cfg_using_elfs.append(
+                    CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled)
+                )
     cfg_using_elfs.sort(key=lambda e: e.path.name)
     print(cfg_using_elfs)
     print("\n" * 10)
-    write_cfg_using_elfs_json(cfg_exports, cfg_exports_demangled, cfg_using_elfs, args.out_json)
+    write_cfg_using_elfs_json(
+        cfg_exports, cfg_exports_demangled, cfg_using_elfs, args.out_json
+    )
 
 
 def main() -> None:
