@@ -74,6 +74,8 @@ class CfgUsingElf:
     cfg_sym_imports_demangled: list[str]
 
     def to_dict(self: Self) -> dict:
+        self.cfg_sym_imports.sort()
+        self.cfg_sym_imports_demangled.sort()
         return {
             "path": self.path,
             "cfg_syms": self.cfg_sym_imports,
@@ -88,6 +90,8 @@ def write_cfg_using_elfs_json(
     out_json: TextOutputPath,
 ) -> None:
     info = {}
+    info["cfg_exports"] = cfg_exports
+    info["cfg_exports_demangled"] = cfg_exports_demangled
     info["num_cfg_using_elfs"] = len(cfg_using_elfs)
     num_elfs_using_sym = defaultdict(int)
     num_elfs_using_sym_demangled = defaultdict(int)
@@ -99,7 +103,8 @@ def write_cfg_using_elfs_json(
     info["num_elfs_using_sym"] = num_elfs_using_sym
     info["num_elfs_using_sym_demangled"] = num_elfs_using_sym_demangled
     info["cfg_using_elfs"] = list(map(lambda e: e.to_dict(), cfg_using_elfs))
-    json.dump(info, out_json.fh)
+    json.dump(info, out_json.fh, indent=4)
+    out_json.fh.flush()
 
 
 def real_main(args: Args) -> None:
@@ -120,8 +125,8 @@ def real_main(args: Args) -> None:
         raise ValueError(
             f"len(cfg_exports_demangled) = {len(cfg_exports_demangled)} != len(cfg_exports_demangled) = {len(cfg_exports_set_demangled)}"
         )
-    print(cfg_exports, file=open("cfg_exports.txt", "w"))
-    print(cfg_exports_demangled, file=open("cfg_exports_demangled.txt", "w"))
+    print(cfg_exports, file=open("cfg-exports.txt", "w"))
+    print(cfg_exports_demangled, file=open("cfg-exports-demangled.txt", "w"))
     for f in args.in_dir.walkfiles():
         if f == cfg_elf:
             continue
@@ -134,6 +139,7 @@ def real_main(args: Args) -> None:
                 cfg_using_elfs.append(CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled))
     cfg_using_elfs.sort(key=lambda e: e.path.name)
     print(cfg_using_elfs)
+    print("\n" * 10)
     write_cfg_using_elfs_json(cfg_exports, cfg_exports_demangled, cfg_using_elfs, args.out_json)
 
 
