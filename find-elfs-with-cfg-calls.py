@@ -37,15 +37,15 @@ class TextOutputPath(Path):
 
 
 class Args(Tap):
-    in_path: Path  # Input Quartus binary directory to search
-    out_path: Path = "-"  # "Output JSON path (defaults to "-" for stdout)
+    in_dir: Path  # Input Quartus binary directory to search
+    out_json: Path = "-"  # "Output JSON path (defaults to "-" for stdout)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, underscores_to_dashes=True, **kwargs)
 
     def configure(self):
-        self.add_argument("-i", "--in_path")
-        self.add_argument("-o", "--out_path", type=TextOutputPath.to_text_output_path)
+        self.add_argument("-i", "--in_dir")
+        self.add_argument("-o", "--out_json", type=TextOutputPath.to_text_output_path)
 
 
 def demangle_syms(syms: list[str]) -> list[str]:
@@ -75,7 +75,7 @@ class CfgUsingElf:
 
     def to_dict(self: Self) -> dict:
         return {
-            "path": self.path.abspath(),
+            "path": self.path,
             "cfg_syms": self.cfg_sym_imports,
             "cfg_syms_demangled": self.cfg_sym_imports_demangled,
         }
@@ -85,7 +85,7 @@ def write_cfg_using_elfs_json(
     cfg_exports: list[str],
     cfg_exports_demangled: list[str],
     cfg_using_elfs: list[CfgUsingElf],
-    out_path: TextOutputPath,
+    out_json: TextOutputPath,
 ) -> None:
     info = {}
     info["num_cfg_using_elfs"] = len(cfg_using_elfs)
@@ -99,13 +99,13 @@ def write_cfg_using_elfs_json(
     info["num_elfs_using_sym"] = num_elfs_using_sym
     info["num_elfs_using_sym_demangled"] = num_elfs_using_sym_demangled
     info["cfg_using_elfs"] = list(map(lambda e: e.to_dict(), cfg_using_elfs))
-    json.dump(info, out_path.fh())
+    json.dump(info, out_json.fh)
 
 
 def real_main(args: Args) -> None:
     cfg_using_elfs: list[CfgUsingElf] = []
     cfg_elf: Optional[Path] = None
-    for f in args.in_path.walkfiles():
+    for f in args.in_dir.walkfiles():
         if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
             if f.name == CFG_ELF:
                 cfg_elf = f
@@ -122,19 +122,19 @@ def real_main(args: Args) -> None:
         )
     print(cfg_exports, file=open("cfg_exports.txt", "w"))
     print(cfg_exports_demangled, file=open("cfg_exports_demangled.txt", "w"))
-    for f in args.in_path.walkfiles():
+    for f in args.in_dir.walkfiles():
+        if f == cfg_elf:
+            continue
         if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
             print(f"inspecting ELF {f}")
-            if f.name == CFG_ELF:
-                continue
             used_cfg_exports: list[str] = elf_imported_cfg_exports(f, cfg_exports_set)
             if len(used_cfg_exports):
                 print(f"{f.name} uses cfg syms")
                 used_cfg_exports_demangled: list[str] = demangle_syms(used_cfg_exports)
                 cfg_using_elfs.append(CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled))
     cfg_using_elfs.sort(key=lambda e: e.path.name)
-    write_cfg_using_elfs_json(cfg_exports, cfg_exports_demangled, cfg_using_elfs, args.out_path)
     print(cfg_using_elfs)
+    write_cfg_using_elfs_json(cfg_exports, cfg_exports_demangled, cfg_using_elfs, args.out_json)
 
 
 def main() -> None:
