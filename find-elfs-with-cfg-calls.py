@@ -138,19 +138,16 @@ def real_main(args: Args) -> None:
         if f == cfg_elf:
             continue
         with open(f, "rb") as fh:
-            if fh.read(len(ELF_MAGIC)) == ELF_MAGIC:
-                print(f"inspecting ELF {f}")
-                used_cfg_exports: list[str] = elf_imported_cfg_exports(
-                    f, cfg_exports_set
-                )
-                if used_cfg_exports:
-                    print(f"{f.name} uses cfg syms")
-                    used_cfg_exports_demangled: list[str] = demangle_syms(
-                        used_cfg_exports
-                    )
-                    cfg_using_elfs.append(
-                        CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled)
-                    )
+            if fh.read(len(ELF_MAGIC)) != ELF_MAGIC:
+                continue
+        print(f"inspecting ELF {f}")
+        used_cfg_exports: list[str] = elf_imported_cfg_exports(f, cfg_exports_set)
+        if used_cfg_exports:
+            print(f"{f.name} uses cfg syms")
+            used_cfg_exports_demangled: list[str] = demangle_syms(used_cfg_exports)
+            cfg_using_elfs.append(
+                CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled)
+            )
     cfg_using_elfs.sort(key=lambda e: e.path.name)
     print(cfg_using_elfs)
     write_cfg_using_elfs_json(
