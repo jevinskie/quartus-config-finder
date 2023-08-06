@@ -15,7 +15,9 @@ class CfgFunc:
     name: str
     mangled_name: str
     opt_name_arg_num: Optional[int]
-    opt_set_arg_num = Optional[int]
+    opt_set_arg_num: Optional[int]
+    opt_enum_arg_num: Optional[int]
+    opt_enum_set_arg_num: Optional[int]
 
 
 OptValue = Union[bool, int, str]
@@ -25,7 +27,7 @@ OptValue = Union[bool, int, str]
 class CfgFuncCall:
     cfg_func: CfgFunc
     caller_func: str
-    caller_func_demangled: str
+    caller_func_mangled: str
     caller_elf: Path
     opt_name: Optional[str]
     opt_enum: Optional[str]  # fixme
