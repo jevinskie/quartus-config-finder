@@ -100,6 +100,12 @@ def write_cfg_using_elfs_json(
             num_elfs_using_sym[s] += 1
         for ds in e.cfg_sym_imports_demangled:
             num_elfs_using_sym_demangled[ds] += 1
+    num_elfs_using_sym = dict(
+        sorted(num_elfs_using_sym.items(), key=lambda p: p[1], reverse=True)
+    )
+    num_elfs_using_sym_demangled = dict(
+        sorted(num_elfs_using_sym_demangled.items(), key=lambda p: p[1], reverse=True)
+    )
     info["num_elfs_using_sym"] = num_elfs_using_sym
     info["num_elfs_using_sym_demangled"] = num_elfs_using_sym_demangled
     info["cfg_using_elfs"] = list(map(lambda e: e.to_dict(), cfg_using_elfs))
@@ -111,12 +117,13 @@ def real_main(args: Args) -> None:
     cfg_using_elfs: list[CfgUsingElf] = []
     cfg_elf: Optional[Path] = None
     for f in args.in_dir.walkfiles():
-        if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
-            if f.name == CFG_ELF:
-                cfg_elf = f
-                break
+        with open(f, "rb") as fh:
+            if fh.read(len(ELF_MAGIC)) == ELF_MAGIC:
+                if f.name == CFG_ELF:
+                    cfg_elf = f
+                    break
     if cfg_elf is None:
-        raise LookupError("Couldn't find {CFG_ELF}")
+        raise LookupError(f"Couldn't find {CFG_ELF}")
     cfg_exports: list[str] = get_cfg_exports(cfg_elf)
     cfg_exports_demangled: list[str] = demangle_syms(cfg_exports)
     cfg_exports_set: set[str] = set(cfg_exports)
@@ -130,18 +137,22 @@ def real_main(args: Args) -> None:
     for f in args.in_dir.walkfiles():
         if f == cfg_elf:
             continue
-        if open(f, "rb").read(len(ELF_MAGIC)) == ELF_MAGIC:
-            print(f"inspecting ELF {f}")
-            used_cfg_exports: list[str] = elf_imported_cfg_exports(f, cfg_exports_set)
-            if used_cfg_exports:
-                print(f"{f.name} uses cfg syms")
-                used_cfg_exports_demangled: list[str] = demangle_syms(used_cfg_exports)
-                cfg_using_elfs.append(
-                    CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled)
+        with open(f, "rb") as fh:
+            if fh.read(len(ELF_MAGIC)) == ELF_MAGIC:
+                print(f"inspecting ELF {f}")
+                used_cfg_exports: list[str] = elf_imported_cfg_exports(
+                    f, cfg_exports_set
                 )
+                if used_cfg_exports:
+                    print(f"{f.name} uses cfg syms")
+                    used_cfg_exports_demangled: list[str] = demangle_syms(
+                        used_cfg_exports
+                    )
+                    cfg_using_elfs.append(
+                        CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled)
+                    )
     cfg_using_elfs.sort(key=lambda e: e.path.name)
     print(cfg_using_elfs)
-    print("\n" * 10)
     write_cfg_using_elfs_json(
         cfg_exports, cfg_exports_demangled, cfg_using_elfs, args.out_json
     )

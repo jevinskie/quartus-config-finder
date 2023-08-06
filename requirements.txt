@@ -1,0 +1,8 @@
+attrs>=23.1.0
+cxxfilt>=0.3.0
+lief>=0.13.2
+path.py>=12.5.0
+rich>=13.5.2
+typed_argument_parser>=1.8.1
+typing_extensions>=4.7.1
+wrapt>=1.15.0
