@@ -137,7 +137,6 @@ def inspect_cfg_using_elf(args: InspectArgs) -> Optional[CfgUsingElf]:
 
 
 def real_main(args: Args) -> None:
-    cfg_using_elfs: list[CfgUsingElf] = []
     cfg_elf: Optional[Path] = None
     for f in args.in_dir.walkfiles():
         with open(f, "rb") as fh:
@@ -163,7 +162,9 @@ def real_main(args: Args) -> None:
         inspect_args.append(InspectArgs(f, cfg_elf, cfg_exports_set))
     with Pool() as p:
         inspect_res = p.map(inspect_cfg_using_elf, inspect_args)
-    cfg_using_elfs = list(filter(lambda r: r is not None, inspect_res))
+    cfg_using_elfs: list[CfgUsingElf] = list(
+        filter(lambda r: r is not None, inspect_res)
+    )
     cfg_using_elfs.sort(key=lambda e: e.path.name)
     print(cfg_using_elfs)
     write_cfg_using_elfs_json(

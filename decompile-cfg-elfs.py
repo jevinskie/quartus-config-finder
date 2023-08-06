@@ -39,7 +39,7 @@ def copy_elfs(orig_elfs: list[Path], out_dir: Path) -> list[Path]:
     return copied_elfs
 
 
-def decompile_elf(elf_path: Path):
+def decompile_elf(elf_path: Path) -> None:
     print(f"Decompiling {elf_path.name}")
     c_file = elf_path + ".c"
     args = [
