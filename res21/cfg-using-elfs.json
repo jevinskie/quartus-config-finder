@@ -202,7 +202,7 @@
     },
     "cfg_using_elfs": [
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/python/lib/_rdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/python/lib/_rdb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -211,7 +211,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/altgx_mifgen",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/altgx_mifgen",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -220,27 +220,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq_acvqc.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq_acvqm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -251,7 +231,16 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq_acvqv.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq_acvqc.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq_acvqm.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -262,7 +251,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_adb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_acvq_acvqv.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -273,7 +262,18 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_apeq_model.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_adb.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_apeq_model.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -282,7 +282,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_ecoq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_ecoq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -291,7 +291,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_lfp_base.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_lfp_base.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -304,7 +304,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libace_sprbq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libace_sprbq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -313,7 +313,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_a2v.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_a2v.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -322,7 +322,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_amerge.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_amerge.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -335,7 +335,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_anadder.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_anadder.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -344,7 +344,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_anightfury.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_anightfury.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -353,7 +353,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_asplit.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_asplit.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -362,7 +362,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_atmx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_atmx.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -373,7 +373,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_cga.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_cga.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -382,7 +382,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_ctcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_ctcl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -391,7 +391,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libatm_hcnu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libatm_hcnu.so",
             "cfg_syms": [
                 "_Z9cfg_is_on16CFG_INI_VAR_ENUM"
             ],
@@ -400,7 +400,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altlvds_rx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altlvds_rx.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -411,7 +411,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altlvds_tx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altlvds_tx.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -422,7 +422,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altmult_add.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altmult_add.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -431,7 +431,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altshift_taps.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altshift_taps.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -440,7 +440,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altsyncram.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcbx_altsyncram.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -449,7 +449,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_atcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_atcl.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -462,7 +462,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_big.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_big.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -471,18 +471,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_curl.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_ipc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_curl.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -493,7 +482,18 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_mio.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_ipc.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_mio.so",
             "cfg_syms": [
                 "_Z26cfg_get_user_ini_int_value18CFG_USER_INI_ENUMS",
                 "_Z32cfg_does_ini_variable_have_value18CFG_USER_INI_ENUMSb",
@@ -506,7 +506,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_mps.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_mps.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -515,7 +515,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_msg.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_msg.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -538,7 +538,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_ntfq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_ntfq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -547,7 +547,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_qsym.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_qsym.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -556,7 +556,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_qtl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_qtl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -565,7 +565,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_rpc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_rpc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -574,7 +574,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libccl_xml.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libccl_xml.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -583,7 +583,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asm.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -596,7 +596,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asm2.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asm2.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -607,7 +607,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmcc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmcc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -616,7 +616,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmgx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmgx.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -627,7 +627,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmio.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmio.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -638,7 +638,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmmac.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmmac.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -647,7 +647,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmpll.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmpll.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -656,7 +656,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmram.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_asmram.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -667,7 +667,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_bsg.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_bsg.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -676,7 +676,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_bsgi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_bsgi.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -687,7 +687,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_fit2.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_fit2.so",
             "cfg_syms": [
                 "_Z32cfg_get_single_most_accessed_iniRSsS_",
                 "_Z9cfg_is_onPKcb"
@@ -698,7 +698,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_mpp.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_mpp.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -709,7 +709,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qcu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qcu.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -740,7 +740,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qexe.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qexe.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z13cfg_set_valueRKSsS0_",
@@ -765,7 +765,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qfit_legacy_flow.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qfit_legacy_flow.so",
             "cfg_syms": [
                 "_Z13cfg_set_valueRKSsS0_",
                 "_Z32cfg_get_single_most_accessed_iniRSsS_",
@@ -778,7 +778,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qhd.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_qhd.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -795,7 +795,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_rapid.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_rapid.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -812,7 +812,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_rpt.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_rpt.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -825,7 +825,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_rutil.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libcomp_rutil.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -834,7 +834,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_a2c.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_a2c.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -843,7 +843,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_acf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_acf.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z9cfg_is_onPKcb"
@@ -854,7 +854,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_amm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_amm.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -865,7 +865,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_ares.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_ares.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -876,7 +876,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_bak.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_bak.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -885,90 +885,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_bpm.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_emif.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_hssi.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_lvds.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_pll.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_cv_pll.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_generic.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_nf_hssi.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_bpm.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -979,7 +896,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_arm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_emif.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -988,7 +905,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_cuda.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_hssi.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -997,7 +914,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_dynamic.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_lvds.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1006,7 +923,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_factory.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_av_pll.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1015,7 +932,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_generic.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_cv_pll.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1024,7 +941,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_hcx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_generic.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1033,7 +950,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_nadder.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cal_nf_hssi.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1042,7 +959,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_tgx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1051,43 +968,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_titan.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_ygr.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_mgr.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_re.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_sgate.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1098,7 +979,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_sgate_generic.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_arm.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1107,7 +988,126 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_constra.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_cuda.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_dynamic.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_factory.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_generic.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_hcx.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_nadder.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_tgx.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_titan.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_atom_ygr.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_mgr.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_re.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_sgate.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cdb_sgate_generic.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_constra.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_read_ini_fileRKSs",
@@ -1124,7 +1124,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_csu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_csu.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1133,7 +1133,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_csyn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_csyn.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -1150,7 +1150,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cut.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cut.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1169,7 +1169,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cut_dev.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_cut_dev.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1178,7 +1178,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dbm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dbm.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1187,7 +1187,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dbmui.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dbmui.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1196,7 +1196,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dftcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dftcl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1205,7 +1205,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dpf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_dpf.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1214,7 +1214,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_fin.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_fin.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1223,7 +1223,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hcpro.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hcpro.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1232,7 +1232,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hdb.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1249,7 +1249,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hdbx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hdbx.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1258,7 +1258,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hut.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_hut.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1267,7 +1267,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_idb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_idb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1276,7 +1276,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_idu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_idu.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1287,7 +1287,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_kpt.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_kpt.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1296,7 +1296,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_lampas.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_lampas.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -1307,7 +1307,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_llu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_llu.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1318,7 +1318,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_logdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_logdb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1327,7 +1327,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_msf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_msf.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1336,7 +1336,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_pdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_pdb.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1347,7 +1347,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_qdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_qdb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1356,7 +1356,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_qtk.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_qtk.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1369,7 +1369,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_qtk_tcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_qtk_tcl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1378,7 +1378,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rbc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rbc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1387,7 +1387,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rbc_tcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rbc_tcl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1396,7 +1396,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rcf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rcf.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1405,7 +1405,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rdb.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z9cfg_is_onPKcb"
@@ -1416,7 +1416,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rdb_rdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rdb_rdb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1425,7 +1425,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rdb_tcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_rdb_tcl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1434,49 +1434,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_tim.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_tim_rc.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_tinfo.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b2_cdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_tim.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1489,7 +1447,36 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b2_core.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_tim_rc.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_tinfo.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b2_cdb.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1502,7 +1489,20 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b2_routing.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b2_core.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b2_routing.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1511,7 +1511,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b_cfg.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_u2b_cfg.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1520,7 +1520,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_vdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_vdb.so",
             "cfg_syms": [
                 "_Z26cfg_get_user_ini_int_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -1531,7 +1531,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libdb_wys.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libdb_wys.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1540,7 +1540,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_bcm2bits.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_bcm2bits.so",
             "cfg_syms": [
                 "_Z13cfg_set_valueRKSsS0_",
                 "_Z9cfg_is_onPKcb"
@@ -1551,7 +1551,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dbcm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dbcm.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -1562,7 +1562,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dcalc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dcalc.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1573,40 +1573,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dev.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dlib.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dloc.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dmgr.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dev.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1619,16 +1586,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dmig.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dpow.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dlib.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -1639,7 +1597,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dspf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dloc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1648,7 +1606,29 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dygr.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dmgr.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dmig.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dpow.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -1659,7 +1639,27 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dygr_fdi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dspf.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dygr.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dygr_fdi.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1670,7 +1670,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dygr_qdl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_dygr_qdl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1679,7 +1679,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_fdi_build.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_fdi_build.so",
             "cfg_syms": [
                 "_Z11cfg_set_offRKSs",
                 "_Z13cfg_get_valuePKc",
@@ -1694,7 +1694,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libddb_fdi_data.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libddb_fdi_data.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1707,7 +1707,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libedt_gedq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libedt_gedq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z22cfg_set_user_ini_value18CFG_USER_INI_ENUMSPKc"
@@ -1718,7 +1718,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libedt_gio.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libedt_gio.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1727,7 +1727,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libedt_gioq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libedt_gioq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1736,7 +1736,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libedt_smeq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libedt_smeq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1745,7 +1745,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libedt_tedq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libedt_tedq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1754,7 +1754,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libedt_wedtq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libedt_wedtq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z32cfg_does_ini_variable_have_value18CFG_USER_INI_ENUMSb",
@@ -1767,7 +1767,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_bsyn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_bsyn.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1780,7 +1780,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fcuda.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fcuda.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1789,7 +1789,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fdrgn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fdrgn.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z17cfg_get_int_valuePKci",
@@ -1802,7 +1802,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fhssi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fhssi.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1813,7 +1813,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fiochk.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fiochk.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1822,7 +1822,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fiomgr.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fiomgr.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -1833,7 +1833,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fitapi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fitapi.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1848,7 +1848,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fitcc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fitcc.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1861,7 +1861,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fmain.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fmain.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1870,7 +1870,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_foct.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_foct.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1879,7 +1879,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fsac.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fsac.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1894,7 +1894,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fsv.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fsv.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -1911,7 +1911,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_ftab.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_ftab.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1920,7 +1920,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_ftitan.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_ftitan.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1929,7 +1929,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fygr.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_fygr.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -1942,7 +1942,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_vpr20kmain.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libfitter_vpr20kmain.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z13cfg_set_valueRKSsS0_",
@@ -1957,7 +1957,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libgcl_afcq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libgcl_afcq.so",
             "cfg_syms": [
                 "_Z9cfg_is_on16CFG_INI_VAR_ENUM",
                 "_Z9cfg_is_onPKcb"
@@ -1968,7 +1968,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libgcl_cfgq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libgcl_cfgq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1977,7 +1977,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libgcl_dvw.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libgcl_dvw.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z9cfg_is_onPKcb"
@@ -1988,7 +1988,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lab.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lab.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -1997,18 +1997,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lale.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lblk.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lale.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2019,25 +2008,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lchip.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lregion.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lutil.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lblk.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2048,7 +2019,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipcatalog.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lchip.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2057,7 +2028,36 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipcatviewq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lregion.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/liblegality_lutil.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipcatalog.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipcatviewq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS"
             ],
@@ -2066,7 +2066,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipdgen.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipdgen.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2075,18 +2075,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipedq.so",
-            "cfg_syms": [
-                "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_user_ini_value(CFG_USER_INI_ENUMS)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipman.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipedq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -2097,7 +2086,18 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipqx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipman.so",
+            "cfg_syms": [
+                "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_user_ini_value(CFG_USER_INI_ENUMS)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_ipqx.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
@@ -2110,7 +2110,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_mwpim.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_mwpim.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -2121,7 +2121,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_qsysipc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_qsysipc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2130,7 +2130,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libmega_wizmancmd_sh.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libmega_wizmancmd_sh.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -2141,7 +2141,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_cdco.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_cdco.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2150,7 +2150,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_hspo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_hspo.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2159,7 +2159,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_ibiso.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_ibiso.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2168,27 +2168,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_qneto.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_sut.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_tbo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_qneto.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2199,7 +2179,16 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_tsdo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_sut.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_tbo.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2210,25 +2199,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_vhdo.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_vlgo.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_vqmo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_tsdo.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2239,7 +2210,36 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_wsc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_vhdo.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_vlgo.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_vqmo.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_wsc.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2250,7 +2250,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_wutil.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_wutil.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2259,7 +2259,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_xibiso.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_xibiso.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -2272,7 +2272,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libneto_xibiso2.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libneto_xibiso2.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -2287,7 +2287,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libnlv_nsmq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libnlv_nsmq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2296,7 +2296,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libnlv_nuiq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libnlv_nuiq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2311,7 +2311,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libnlv_nvd.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libnlv_nvd.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2322,7 +2322,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_cclk.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_cclk.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2337,7 +2337,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_cio.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_cio.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2346,7 +2346,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_cpll.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_cpll.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2359,7 +2359,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_emif.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_emif.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z13cfg_get_valuePKc",
@@ -2374,7 +2374,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_fpp.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_fpp.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2387,7 +2387,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_hps.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_hps.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2396,7 +2396,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_hssi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_hssi.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2409,7 +2409,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_lvds.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_lvds.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2420,7 +2420,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_oct.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_oct.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2431,7 +2431,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pcc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pcc.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2442,7 +2442,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pdp.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pdp.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2451,7 +2451,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pfam.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pfam.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2460,7 +2460,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pmb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libperiph_pmb.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2469,7 +2469,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_common.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_common.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z13cfg_set_valueRKSsS0_",
@@ -2486,7 +2486,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_cpfq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_cpfq.so",
             "cfg_syms": [
                 "_Z23cfg_write_user_ini_filev",
                 "_Z26cfg_set_user_ini_int_value18CFG_USER_INI_ENUMSi",
@@ -2499,7 +2499,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_dev.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_dev.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2508,7 +2508,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_fbgen.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_fbgen.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2517,7 +2517,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_fidq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_fidq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2528,7 +2528,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_fidq_common.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_fidq_common.so",
             "cfg_syms": [
                 "_Z23cfg_write_user_ini_filev",
                 "_Z26cfg_get_user_ini_int_value18CFG_USER_INI_ENUMS",
@@ -2543,7 +2543,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_gfpdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_gfpdb.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z22cfg_set_user_ini_value18CFG_USER_INI_ENUMSPKc",
@@ -2558,7 +2558,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_jbc2.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_jbc2.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2567,7 +2567,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmalgo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmalgo.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2582,7 +2582,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmasst.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmasst.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2591,7 +2591,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmd_common.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmd_common.so",
             "cfg_syms": [
                 "_Z23cfg_write_user_ini_filev",
                 "_Z26cfg_get_user_ini_int_value18CFG_USER_INI_ENUMS",
@@ -2604,7 +2604,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmdq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmdq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2613,7 +2613,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgme.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgme.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2636,7 +2636,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmio.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmio.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z13cfg_get_valuePKc",
@@ -2665,7 +2665,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmtq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmtq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2674,7 +2674,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpgm_pgmwq.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z19cfg_set_user_ini_on18CFG_USER_INI_ENUMS",
@@ -2693,7 +2693,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_epeo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_epeo.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2704,7 +2704,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pan.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pan.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -2717,7 +2717,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pat.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pat.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2726,7 +2726,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_patfam.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_patfam.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2737,7 +2737,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_patfam_cuda.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_patfam_cuda.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2746,7 +2746,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pe_nd.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pe_nd.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2755,7 +2755,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pe_nf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pe_nf.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2764,7 +2764,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_putil.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_putil.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -2775,7 +2775,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_putil_external.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_putil_external.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valueRKSsi",
@@ -2788,7 +2788,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pva.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pva.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2797,7 +2797,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pvafam.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pvafam.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2806,7 +2806,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pvafam_tsunami.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libpower_pvafam_tsunami.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2815,7 +2815,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_arc_tcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_arc_tcl.so",
             "cfg_syms": [
                 "_Z26cfg_get_ini_file_path_namev",
                 "_Z9cfg_is_onPKcb"
@@ -2826,7 +2826,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_asl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_asl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2835,7 +2835,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_cmpm.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_cmpm.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -2846,7 +2846,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_conwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_conwq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z32cfg_does_ini_variable_have_value18CFG_USER_INI_ENUMSb",
@@ -2859,7 +2859,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_dpwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_dpwq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2868,7 +2868,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_llwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_llwq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2877,7 +2877,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_pjnq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_pjnq.so",
             "cfg_syms": [
                 "_Z9cfg_is_on16CFG_INI_VAR_ENUM",
                 "_Z9cfg_is_onPKcb"
@@ -2888,7 +2888,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_pplq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_pplq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2897,7 +2897,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_prdq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_prdq.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z19cfg_set_user_ini_on18CFG_USER_INI_ENUMS",
@@ -2928,7 +2928,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_qpu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_qpu.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2937,7 +2937,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libprj_unbq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libprj_unbq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2946,7 +2946,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libqcl_clk.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libqcl_clk.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2955,7 +2955,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libqcl_pll.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libqcl_pll.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2964,7 +2964,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libqcl_pllc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libqcl_pllc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2973,7 +2973,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_emit.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_emit.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -2982,7 +2982,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_flowg.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_flowg.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z19cfg_set_user_ini_on18CFG_USER_INI_ENUMS",
@@ -2997,7 +2997,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_itc2.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_itc2.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3006,7 +3006,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_mswq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_mswq.so",
             "cfg_syms": [
                 "_Z9cfg_is_on16CFG_INI_VAR_ENUM",
                 "_Z9cfg_is_onPKcb"
@@ -3017,7 +3017,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_oawq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_oawq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3028,7 +3028,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_ptwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_ptwq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3037,7 +3037,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_rpwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_rpwq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3052,7 +3052,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_tawq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_tawq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
@@ -3065,7 +3065,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_tftw.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_tftw.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -3076,7 +3076,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libresr_tmwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libresr_tmwq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3085,7 +3085,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_aseq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_aseq.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z9cfg_is_onPKcb"
@@ -3096,7 +3096,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_csetq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_csetq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
@@ -3115,7 +3115,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_dset.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_dset.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3126,7 +3126,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_dset_cdo.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_dset_cdo.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3137,7 +3137,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_eslc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_eslc.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_valuePKc"
             ],
@@ -3146,7 +3146,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_pedaq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_pedaq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -3157,7 +3157,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_psetq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_psetq.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
@@ -3176,7 +3176,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_setdq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsaui_setdq.so",
             "cfg_syms": [
                 "_Z9cfg_is_on16CFG_INI_VAR_ENUM",
                 "_Z9cfg_is_onPKcb"
@@ -3187,7 +3187,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_atcq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_atcq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3196,7 +3196,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_bnlq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_bnlq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3205,7 +3205,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_chi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_chi.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_read_ini_filev",
@@ -3218,7 +3218,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_emitt.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_emitt.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3231,7 +3231,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_hdd.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_hdd.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3242,7 +3242,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_ice.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_ice.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3253,7 +3253,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sad.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sad.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3264,7 +3264,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sci.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sci.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3275,7 +3275,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_scix.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_scix.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3284,38 +3284,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sdr.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sedq.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsld_spam.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_algs.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sdr.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3328,18 +3297,25 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_atm_build.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_sedq.so",
             "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
             ],
             "cfg_syms_demangled": [
-                "cfg_get_value(char const*)",
                 "cfg_is_on(char const*, bool)"
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_bal.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsld_spam.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_algs.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3352,7 +3328,31 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_basex.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_atm_build.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_bal.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_basex.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3361,7 +3361,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_bdd.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_bdd.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3370,7 +3370,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_cbxi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_cbxi.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3379,7 +3379,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_dump.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_dump.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -3394,7 +3394,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_edfx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_edfx.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3403,142 +3403,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_ftm.so",
-            "cfg_syms": [
-                "_Z10cfg_set_onRKSs",
-                "_Z11cfg_set_offRKSs",
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)",
-                "cfg_set_off(std::string const&)",
-                "cfg_set_on(std::string const&)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_gdfx.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_infer.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_llis.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_lpms.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_map.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_mast.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_mls.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_opt.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_qis.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sam.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_scl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_ftm.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -3555,7 +3420,142 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sgn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_gdfx.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_infer.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_llis.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_lpms.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_map.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_mast.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_mls.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_opt.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_qis.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sam.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_scl.so",
+            "cfg_syms": [
+                "_Z10cfg_set_onRKSs",
+                "_Z11cfg_set_offRKSs",
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)",
+                "cfg_set_off(std::string const&)",
+                "cfg_set_on(std::string const&)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sgn.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3570,7 +3570,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sgn_qic_dpi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sgn_qic_dpi.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3579,7 +3579,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_smp.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_smp.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3590,7 +3590,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_ssyn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_ssyn.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3599,7 +3599,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sutil.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_sutil.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3614,7 +3614,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_tag.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_tag.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3623,7 +3623,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_tdfx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_tdfx.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3632,7 +3632,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vdump.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vdump.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3641,7 +3641,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vqmx.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vqmx.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3650,18 +3650,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vrfx.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vrfx2.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vrfx.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3672,7 +3661,18 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_wl_netlist.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_vrfx2.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_wl_netlist.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3681,7 +3681,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_wopt.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_wopt.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3694,7 +3694,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_wutil.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsynth_wutil.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3705,7 +3705,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_bmwq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_bmwq.so",
             "cfg_syms": [
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
                 "_Z19cfg_set_user_ini_on18CFG_USER_INI_ENUMS",
@@ -3730,7 +3730,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_cloud.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_cloud.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS"
             ],
@@ -3739,7 +3739,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_cpt.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_cpt.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3766,7 +3766,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_cpt_guiq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_cpt_guiq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -3785,7 +3785,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_dist.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_dist.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3794,7 +3794,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_dsgn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_dsgn.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3803,7 +3803,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_flow.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_flow.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
@@ -3816,7 +3816,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_hlpq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_hlpq.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -3827,7 +3827,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_ictq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_ictq.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z32cfg_does_ini_variable_have_value18CFG_USER_INI_ENUMSb",
@@ -3840,7 +3840,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_mdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_mdb.so",
             "cfg_syms": [
                 "_Z33cfg_write_and_close_user_ini_filev",
                 "_Z9cfg_is_onPKcb"
@@ -3851,7 +3851,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_pjc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_pjc.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z13cfg_set_valueRKSsS0_",
@@ -3882,7 +3882,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_pjc_tcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_pjc_tcl.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_valuePKc",
                 "_Z22cfg_set_user_ini_valuePKcS0_",
@@ -3897,7 +3897,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_plf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_plf.so",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z32cfg_does_ini_variable_have_value18CFG_USER_INI_ENUMSb",
@@ -3910,7 +3910,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_proj.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_proj.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z25cfg_read_default_ini_filev",
@@ -3925,7 +3925,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_qgq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_qgq.so",
             "cfg_syms": [
                 "_Z9cfg_is_on16CFG_INI_VAR_ENUM",
                 "_Z9cfg_is_onPKcb"
@@ -3936,7 +3936,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libsys_qui.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libsys_qui.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z13cfg_set_valueRKSsS0_",
@@ -3967,7 +3967,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_eti.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_eti.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3976,7 +3976,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_fv.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_fv.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3985,7 +3985,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_miu.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_miu.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -3994,7 +3994,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_psyn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtpi_psyn.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4003,7 +4003,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_a2t.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_a2t.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -4014,7 +4014,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_awvq.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_awvq.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4023,7 +4023,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_b2t.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_b2t.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4032,7 +4032,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ddrtcl.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ddrtcl.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4041,7 +4041,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_drc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_drc.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
@@ -4054,7 +4054,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_drc_strs.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_drc_strs.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4063,7 +4063,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_emiftcl_taf.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_emiftcl_taf.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -4074,40 +4074,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_greta.so",
-            "cfg_syms": [
-                "_Z13cfg_get_valuePKc",
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_get_value(char const*)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ioo.so",
-            "cfg_syms": [
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ipsta.so",
-            "cfg_syms": [
-                "_Z17cfg_get_int_valuePKci",
-                "_Z9cfg_is_onPKcb"
-            ],
-            "cfg_syms_demangled": [
-                "cfg_get_int_value(char const*, int)",
-                "cfg_is_on(char const*, bool)"
-            ]
-        },
-        {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_nlspc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_greta.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4120,7 +4087,40 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_pti.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ioo.so",
+            "cfg_syms": [
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ipsta.so",
+            "cfg_syms": [
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_nlspc.so",
+            "cfg_syms": [
+                "_Z13cfg_get_valuePKc",
+                "_Z17cfg_get_int_valuePKci",
+                "_Z9cfg_is_onPKcb"
+            ],
+            "cfg_syms_demangled": [
+                "cfg_get_int_value(char const*, int)",
+                "cfg_get_value(char const*)",
+                "cfg_is_on(char const*, bool)"
+            ]
+        },
+        {
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_pti.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4135,7 +4135,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_qspc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_qspc.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4148,7 +4148,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_s2t.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_s2t.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4157,7 +4157,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_sin.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_sin.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z13cfg_set_valueRKSsS0_",
@@ -4172,7 +4172,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ssc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ssc.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4181,7 +4181,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ssn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_ssn.so",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -4192,7 +4192,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_sta.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_sta.so",
             "cfg_syms": [
                 "_Z10cfg_set_onRKSs",
                 "_Z11cfg_set_offRKSs",
@@ -4213,7 +4213,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tapi.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tapi.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4226,7 +4226,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tdb.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tdb.so",
             "cfg_syms": [
                 "_Z20cfg_get_double_valueRKSsd",
                 "_Z9cfg_is_onPKcb"
@@ -4237,7 +4237,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tdc.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tdc.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4250,7 +4250,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tis.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_tis.so",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4263,7 +4263,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_utn.so",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/libtsm_utn.so",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4272,7 +4272,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/mega_alt_fault_injection",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/mega_alt_fault_injection",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4281,7 +4281,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/mega_altparallel_flash_loaderq",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/mega_altparallel_flash_loaderq",
             "cfg_syms": [
                 "_Z17cfg_get_int_valuePKci",
                 "_Z9cfg_is_onPKcb"
@@ -4292,7 +4292,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/mega_lpm_clshiftq",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/mega_lpm_clshiftq",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4301,7 +4301,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/mega_ramq",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/mega_ramq",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4310,7 +4310,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/qmegawizq",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/qmegawizq",
             "cfg_syms": [
                 "_Z22cfg_get_user_ini_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -4321,7 +4321,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_asm",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_asm",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4330,7 +4330,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_cdb",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_cdb",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z18cfg_user_ini_is_on18CFG_USER_INI_ENUMSb",
@@ -4345,7 +4345,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_cpf",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_cpf",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -4356,7 +4356,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_drc",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_drc",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4365,7 +4365,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_eda",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_eda",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z9cfg_is_onPKcb"
@@ -4376,7 +4376,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_fid",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_fid",
             "cfg_syms": [
                 "_Z26cfg_get_user_ini_int_value18CFG_USER_INI_ENUMS",
                 "_Z9cfg_is_onPKcb"
@@ -4387,7 +4387,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_jbcc",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_jbcc",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4396,7 +4396,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_map",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_map",
             "cfg_syms": [
                 "_Z13cfg_set_valueRKSsS0_",
                 "_Z17cfg_get_int_valuePKci",
@@ -4413,7 +4413,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_npp",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_npp",
             "cfg_syms": [
                 "_Z13cfg_get_valuePKc",
                 "_Z17cfg_get_int_valuePKci",
@@ -4426,7 +4426,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_pgm",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_pgm",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4435,7 +4435,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_si",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_si",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4444,7 +4444,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_sta",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_sta",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4453,7 +4453,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/quartus_syn",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/quartus_syn",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
@@ -4462,7 +4462,7 @@
             ]
         },
         {
-            "path": "../quartus-linux-21.1.1.917-std/quartus/linux64/xcvr_diffmifgen",
+            "path": "../installs/quartus-linux-21.1.1.917-std/quartus/linux64/xcvr_diffmifgen",
             "cfg_syms": [
                 "_Z9cfg_is_onPKcb"
             ],
