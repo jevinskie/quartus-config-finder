@@ -4,6 +4,7 @@ import io
 import json
 import sys
 from collections import defaultdict
+from multiprocessing import Pool
 from typing import Optional
 
 import lief
@@ -74,8 +75,6 @@ class CfgUsingElf:
     cfg_sym_imports_demangled: list[str]
 
     def to_dict(self: Self) -> dict:
-        self.cfg_sym_imports.sort()
-        self.cfg_sym_imports_demangled.sort()
         return {
             "path": self.path,
             "cfg_syms": self.cfg_sym_imports,
@@ -113,6 +112,30 @@ def write_cfg_using_elfs_json(
     out_json.fh.flush()
 
 
+@define
+class InspectArgs:
+    path: Path
+    cfg_elf: Path
+    cfg_exports_set: set[str]
+
+
+def inspect_cfg_using_elf(args: InspectArgs) -> Optional[CfgUsingElf]:
+    if args.path == args.cfg_elf:
+        return None
+    with open(args.path, "rb") as fh:
+        if fh.read(len(ELF_MAGIC)) != ELF_MAGIC:
+            return None
+    print(f"inspecting ELF {args.path}")
+    used_cfg_exports: list[str] = elf_imported_cfg_exports(
+        args.path, args.cfg_exports_set
+    )
+    if used_cfg_exports:
+        print(f"{args.path.name} uses cfg syms")
+        used_cfg_exports_demangled: list[str] = demangle_syms(used_cfg_exports)
+        return CfgUsingElf(args.path, used_cfg_exports, used_cfg_exports_demangled)
+    return None
+
+
 def real_main(args: Args) -> None:
     cfg_using_elfs: list[CfgUsingElf] = []
     cfg_elf: Optional[Path] = None
@@ -134,20 +157,13 @@ def real_main(args: Args) -> None:
         )
     print(cfg_exports, file=open("cfg-exports.txt", "w"))
     print(cfg_exports_demangled, file=open("cfg-exports-demangled.txt", "w"))
+
+    inspect_args: list[InspectArgs] = []
     for f in args.in_dir.walkfiles():
-        if f == cfg_elf:
-            continue
-        with open(f, "rb") as fh:
-            if fh.read(len(ELF_MAGIC)) != ELF_MAGIC:
-                continue
-        print(f"inspecting ELF {f}")
-        used_cfg_exports: list[str] = elf_imported_cfg_exports(f, cfg_exports_set)
-        if used_cfg_exports:
-            print(f"{f.name} uses cfg syms")
-            used_cfg_exports_demangled: list[str] = demangle_syms(used_cfg_exports)
-            cfg_using_elfs.append(
-                CfgUsingElf(f, used_cfg_exports, used_cfg_exports_demangled)
-            )
+        inspect_args.append(InspectArgs(f, cfg_elf, cfg_exports_set))
+    with Pool() as p:
+        inspect_res = p.map(inspect_cfg_using_elf, inspect_args)
+    cfg_using_elfs = list(filter(lambda r: r is not None, inspect_res))
     cfg_using_elfs.sort(key=lambda e: e.path.name)
     print(cfg_using_elfs)
     write_cfg_using_elfs_json(
