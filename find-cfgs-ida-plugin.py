@@ -27,7 +27,8 @@ class CfgFuncCall:
     caller_func: str
     caller_func_demangled: str
     caller_elf: Path
-    opt_name: str
+    opt_name: Optional[str]
+    opt_enum: Optional[str]  # fixme
     opt_set_val: Optional[OptValue]
     opt_default_val: Optional[OptValue]
 
