@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-from typing import Optional
+from typing import Optional, Union
 
 import ida_funcs
 import idautils
 from attrs import define
 from cxxfilt import demangle
+from path import Path
 from rich import print
 
 
@@ -15,6 +16,20 @@ class CfgFunc:
     mangled_name: str
     opt_name_arg_num: Optional[int]
     opt_set_arg_num = Optional[int]
+
+
+OptValue = Union[bool, int, str]
+
+
+@define
+class CfgFuncCall:
+    cfg_func: CfgFunc
+    caller_func: str
+    caller_func_demangled: str
+    caller_elf: Path
+    opt_name: str
+    opt_set_val: Optional[OptValue]
+    opt_default_val: Optional[OptValue]
 
 
 def get_funcs():
