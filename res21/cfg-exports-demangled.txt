@@ -15,7 +15,7 @@
     'cfg_get_most_accessed(std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string>>>*)',
     'cfg_get_regtest_ini_file_path_name()',
     'cfg_get_single_most_accessed_ini(std::string&, std::string&)',
-    'cfg_get_used_variable_value_map(std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, 
+    'cfg_get_used_variable_value_map(std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const,
 std::string>>>*)',
     'cfg_get_user_ini_ini_desc(CFG_USER_INI_ENUMS)',
     'cfg_get_user_ini_ini_string(CFG_USER_INI_ENUMS)',

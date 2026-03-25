@@ -15,7 +15,7 @@ from rich import print
 from tap import Tap
 from typing_extensions import Self
 
-ELF_MAGIC = b"\x7FELF"
+ELF_MAGIC = b"\x7fELF"
 CFG_ELF = Path("libccl_cfg_ini.so")
 
 
